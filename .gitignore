@@ -3,7 +3,7 @@
 
 # But not these files...
 !.gitignore
-!src/
+!src/*
 !README
 !package.json
 !package-lock.json
@@ -17,3 +17,4 @@
 # if the files to be tracked are in subdirectories
 !*/a/b/file1.txt
 !*/a/b/c/*
+node_modules/
